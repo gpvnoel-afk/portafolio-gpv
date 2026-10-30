@@ -1,1 +1,95 @@
-﻿{"version":1,"documents":[]}
+﻿{
+    "version":  1,
+    "documents":  [
+                      {
+                          "file":  "assets/documents/ucne-administracion.pdf",
+                          "sha256":  "0893C1D34BF6E5F7B32AFCEF3FE296F71E91CCA6091EC3894A9FAD437828C77F",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucne-contabilidad.pdf",
+                          "sha256":  "663F78D9011AAE29BD0A5CC3A9A690714F006C9BDB1F31A1FDCFABD8476B877F",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/intec-2024.png",
+                          "sha256":  "04905B69CC30469AB48B4CDEF7441EF214C8A45E8508D6EFB4CB965477A80203",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/intec-2023.png",
+                          "sha256":  "368E6FC70061AB3EC61B064C0E3535B0D0CF41734672F9952FD1F231FC7C5685",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/preservacion.pdf",
+                          "sha256":  "EA82FA999A963DF3022C9D9C938A59E12EDCDF39541FEC785AC0AFE5483A0F84",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ebsco.pdf",
+                          "sha256":  "DC7A2E970E2E2A641BA67DDC9F80BA53C51F772A3AD0C7A9D829903C1B3F66A1",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/oducal.pdf",
+                          "sha256":  "A50E2A2F9EA30914C4126186523E0C4A9442A8B31F948185E4495C0547BD2F8A",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/scopus.pdf",
+                          "sha256":  "471247E20B4DF08E65064249EDCBDD28150FA650E573E5136B949521B9A086A3",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/liderazgo.pdf",
+                          "sha256":  "109B003B49A38B98B8FED31546B27099F6463710C909A4A72B8F3DCCAD254371",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/negocios.png",
+                          "sha256":  "02B4120DCA9B76098F060AF42094C92C2D1432FDADEA008D6B7EEA71E9AC269F",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/infotep.pdf",
+                          "sha256":  "50F975EC0E5C65599A9C8248EAE8AFB878206FF4E32CD329675382A5D0BAE08B",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/auxilios.pdf",
+                          "sha256":  "8339E021DB5C4502D05A522231A22EC107AB700BC36E2F155598890676EC417B",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/incendios.pdf",
+                          "sha256":  "BB20AABDC43142CF135D07A0B6B4684C33AC80CFE1559229967808962E542D4E",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/congreso.pdf",
+                          "sha256":  "D76BAFCD27E37A1F0B85FAE35584DD528EDA2E12A5A73373EA494B86183810AA",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/powerbi.png",
+                          "sha256":  "85811ADDFC27053D9F1B74ABBF241F81B77E5683CD8CD3C2E005F2B1BF0AC858",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      }
+                  ]
+}
