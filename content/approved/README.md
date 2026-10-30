@@ -1,0 +1,3 @@
+Esta carpeta recibe solo copias ya revisadas y autorizadas. No guardar aquí originales, versiones sin revisión ni el CV que contiene teléfonos y referencias personales.
+
+Los documentos se excluyen de Git por defecto. Para publicar un documento, revisar su contenido, usar un nombre sin espacios (por ejemplo `intec-2024.png`), incluirlo explícitamente con `git add -f content/approved/intec-2024.png` y establecer `approved: true`, `verified: true` y `file: "assets/documents/intec-2024.png"` en su registro del catálogo. La construcción copia únicamente esos archivos a `dist`. Si se revoca la aprobación y se vacía `file`, se retira del próximo `dist` generado; las versiones ya publicadas o el historial de Git requieren una retirada adicional.

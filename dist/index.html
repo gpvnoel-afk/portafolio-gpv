@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Germán Antonio Parra Villa. Desarrollo de colecciones, administración, contabilidad y análisis de información.">
+  <meta name="theme-color" content="#142d36">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Germán Antonio Parra Villa · Portafolio profesional">
+  <meta property="og:description" content="Colecciones, gestión y datos: una trayectoria al servicio del conocimiento.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/marca.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+  <title>Germán Antonio Parra Villa · Portafolio profesional</title>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Germán Parra, inicio"><span class="brand-mark">GP<span>V</span></span><span>Germán Parra<small>PORTAFOLIO PROFESIONAL</small></span></a>
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="navegacion">Menú <span aria-hidden="true">☰</span></button>
+    <nav id="navegacion" aria-label="Principal"><a href="#perfil">Perfil</a><a href="#trayectoria">Trayectoria</a><a href="#formacion">Formación</a><a href="#certificados">Certificados</a><a class="nav-contact" href="#contacto">Conversemos <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="contenido">
+    <section id="inicio" class="hero section-wrap">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> REPÚBLICA DOMINICANA</p><h1>El conocimiento<br>se organiza.<br><em>El valor se comparte.</em></h1><p class="hero-name">Germán Antonio Parra Villa</p><p class="hero-description">Bibliotecología, administración y contabilidad. Una mirada integral para conectar colecciones, personas y decisiones.</p><div class="actions"><a class="button primary" href="#trayectoria">Conocer mi trayectoria <span aria-hidden="true">↗</span></a><a class="text-link" href="#certificados">Explorar formación <span aria-hidden="true">↓</span></a></div></div>
+      <div class="hero-art" role="img" aria-label="Composición editorial con libros y las iniciales GPV">
+        <div class="art-top"><span>ARCHIVO PROFESIONAL</span><span>01 / GPV</span></div>
+        <svg class="book-art" viewBox="0 0 440 410" aria-hidden="true"><defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#aab9ad" stroke-opacity=".18"/></pattern></defs><rect width="440" height="410" fill="url(#grid)"/><circle cx="227" cy="194" r="153" fill="none" stroke="#bcc6b8" stroke-opacity=".35"/><circle cx="227" cy="194" r="116" fill="none" stroke="#bcc6b8" stroke-opacity=".22"/><path d="M71 295h293" stroke="#a5baae"/><g transform="translate(79 90)"><path d="M0 21l35-4 27 269-35 4z" fill="#e8dfc5"/><path d="M8 62l34-4M26 243l33-4" stroke="#536d65"/><rect x="80" y="-14" width="43" height="291" rx="3" fill="#8c9d7c"/><path d="M88 25h27M88 244h27" stroke="#e0e3cd"/><rect x="132" y="31" width="67" height="246" rx="3" fill="#cfb076"/><path d="M141 43h49v222h-49z" fill="none" stroke="#e9d5aa"/><text x="166" y="112" transform="rotate(90 166 112)" fill="#263e3c" font-size="13" letter-spacing="4" font-family="Georgia,serif">CONOCIMIENTO</text><rect x="211" y="66" width="31" height="211" rx="2" fill="#dce1d3"/><path d="M219 88h15M219 244h15" stroke="#62766b"/><path d="M248 103l28-6 35 174-28 6z" fill="#657e74"/></g><path d="M74 350h292" stroke="#abbcad" stroke-opacity=".5"/><text x="220" y="385" text-anchor="middle" fill="#dce1d3" font-size="11" letter-spacing="4" font-family="Arial,sans-serif">COLECCIONES · GESTIÓN · DATOS</text></svg>
+        <div class="art-bottom"><span>De la información<br><strong>a la decisión.</strong></span><span class="art-monogram">gpv.</span></div>
+      </div>
+    </section>
+    <div class="discipline-strip"><span>DESARROLLO DE COLECCIONES</span><i aria-hidden="true">✦</i><span>GESTIÓN ADMINISTRATIVA</span><i aria-hidden="true">✦</i><span>ANÁLISIS DE INFORMACIÓN</span><i aria-hidden="true">✦</i><span>FORMACIÓN CONTINUA</span></div>
+    <section id="perfil" class="section-wrap section profile"><div><p class="eyebrow">01 / PERFIL</p><h2>Una trayectoria.<br><em>Distintas perspectivas.</em></h2></div><div class="profile-text"><p class="lead">Gestionar una colección también es comprender las necesidades de quienes la consultan.</p><p id="profile-description"></p><div class="profile-note"><span class="line-icon" aria-hidden="true">↗</span><p>Conectar la gestión bibliotecaria con las herramientas de análisis para dar estructura a la información y apoyar decisiones.</p></div></div></section>
+    <section id="trayectoria" class="section-wrap section"><div class="section-heading"><div><p class="eyebrow">02 / TRAYECTORIA</p><h2>Experiencia que<br><em>conecta disciplinas.</em></h2></div><p class="section-intro">Desarrollo de colecciones en el ámbito universitario y gestión de operaciones y equipos en el sector financiero.</p></div><div id="experience-list" class="timeline"></div><div class="practice-grid" id="practice-list"></div></section>
+    <section id="formacion" class="formation section"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">03 / FORMACIÓN</p><h2>Dos bases académicas.<br><em>Una visión de conjunto.</em></h2></div><p class="section-intro">Formación universitaria en administración y contabilidad, complementada con aprendizaje profesional continuo.</p></div><div id="education-list" class="education-grid"></div><p class="small-note">La formación complementaria se detalla en el catálogo de cursos, talleres y encuentros profesionales.</p></div></section>
+    <section id="certificados" class="section-wrap section"><div class="section-heading"><div><p class="eyebrow">04 / APRENDIZAJE CONTINUO</p><h2>Formación con<br><em>evidencia documental.</em></h2></div><p class="section-intro">Títulos y actividades de formación con evidencia documental revisada. Consulta la institución, la fecha y el tipo de formación de cada registro.</p></div><form id="filters" class="filters" role="search" aria-label="Filtrar certificados"><label class="search-field">Buscar formación<input id="search" type="search" placeholder="Título o institución" autocomplete="off"></label><label>Institución<select id="institution"><option value="">Todas las instituciones</option></select></label><label>Categoría<select id="category"><option value="">Todas las categorías</option></select></label><label>Año<select id="year"><option value="">Todos los años</option></select></label><button type="reset" class="reset-button">Limpiar</button></form><div class="results-bar"><p id="results-count" aria-live="polite" aria-atomic="true"></p><span>CATÁLOGO PROFESIONAL</span></div><div id="certificate-grid" class="certificate-grid"></div><div id="empty-state" class="empty-state" hidden><h3>No encontramos coincidencias</h3><p>Prueba con otra palabra o limpia los filtros.</p><button id="clear-empty" class="button secondary">Limpiar filtros</button></div><noscript><p>Activa JavaScript para explorar el catálogo. La información de perfil y las secciones principales siguen disponibles.</p></noscript></section>
+    <section id="competencias" class="section-wrap section skills-section"><div><p class="eyebrow">05 / COMPETENCIAS</p><h2>Gestión humana.<br><em>Criterio técnico.</em></h2><p>Competencias en gestión de colecciones, administración de recursos y análisis de información.</p></div><div id="skills-list" class="skills-list"></div></section>
+    <section id="curriculum" class="section-wrap cv-section"><div><p class="eyebrow">06 / CURRÍCULUM</p><h2>La trayectoria,<br><em>en un documento.</em></h2><p id="cv-description">La descarga se habilitará únicamente con una versión revisada y autorizada para uso público.</p></div><div id="cv-action"></div></section>
+    <section id="contacto" class="section-wrap section contact-section"><p class="eyebrow">07 / CONTACTO PROFESIONAL</p><h2>Las buenas conexiones<br><em>abren nuevas posibilidades.</em></h2><p>Un espacio para conversar sobre bibliotecas, gestión de colecciones y análisis de información.</p><div id="contact-links" class="actions"></div><p id="contact-note" class="small-note"></p></section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">GP<span>V</span></span><span>Germán Antonio Parra Villa<small>COLECCIONES · GESTIÓN · DATOS</small></span></a><p>© <span id="current-year">2026</span> · Portafolio profesional</p><a href="#inicio" class="text-link">Volver arriba ↑</a></footer>
+  <dialog id="document-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><p class="eyebrow">EVIDENCIA PROFESIONAL</p><h2 id="dialog-title"></h2></div><button id="close-dialog" class="icon-button" aria-label="Cerrar visor">×</button></div><p id="dialog-meta"></p><div id="document-viewer" class="document-viewer"></div><div id="dialog-actions" class="actions"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

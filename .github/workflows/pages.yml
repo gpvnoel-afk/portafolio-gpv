@@ -1,0 +1,69 @@
+name: GPV - comprobar y publicar cambios aprobados
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      confirmacion:
+        description: 'Escribe PUBLICAR para una publicación manual ya autorizada'
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verificar:
+    name: Comprobar producción y privacidad
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Construir versión comprobable sin desplegar
+        shell: pwsh
+        run: ./scripts/Construir.ps1 -Datos content/catalogo-publico.json
+      - name: Verificar estructura y datos
+        shell: pwsh
+        run: ./tests/Validar.ps1 -Datos content/catalogo-publico.json
+  preparar:
+    needs: verificar
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      vars.PAGES_ENABLED == 'true' &&
+      (github.event_name == 'push' ||
+       (github.event_name == 'workflow_dispatch' && inputs.confirmacion == 'PUBLICAR'))
+    runs-on: windows-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Construir exclusivamente contenido autorizado para publicar
+        shell: pwsh
+        run: ./scripts/Construir.ps1 -ParaPublicar -Datos content/catalogo-publico.json
+      - name: Comprobar producción definitiva
+        shell: pwsh
+        run: ./tests/Validar.ps1 -Datos content/catalogo-publico.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  publicar:
+    needs: preparar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar artefacto autorizado
+        id: deployment
+        uses: actions/deploy-pages@v4
