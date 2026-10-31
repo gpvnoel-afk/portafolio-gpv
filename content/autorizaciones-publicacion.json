@@ -90,6 +90,66 @@
                           "sha256":  "85811ADDFC27053D9F1B74ABBF241F81B77E5683CD8CD3C2E005F2B1BF0AC858",
                           "authorizedBy":  "Germán Antonio Parra Villa",
                           "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/icpard-finanzas.pdf",
+                          "sha256":  "30A3848AE5085A215AC5B7D05B8A7EFF7BAE4BDA9D3DA26E105403DC9F2ED526",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/pucmm-persona-gerencia-organizacion.pdf",
+                          "sha256":  "F3A0BE7165BCE293A0E549DC888A647F7CC8763B6C06420E44E4E3D16814820E",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/tecnico-computadoras.pdf",
+                          "sha256":  "6B2AD5FDB698209657EDB353F06D5A7377EB052DAC428AF67F601A00A83E2605",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucateci-alta-gerencia.pdf",
+                          "sha256":  "B2EEC6CA71D0D6CCBED8D51E84C8C987A1B73901A8ADC06A1C852D9BD6778B25",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucateci-gerencia-cambio.pdf",
+                          "sha256":  "E02268E85D5956C54E4C6A93596998F0060D019B82460DC187C9E356FA037E3D",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucateci-gerencia-financiera.pdf",
+                          "sha256":  "7DCA4F3C58BC5F6888C1F8DC6EFD0A10B5A29BE589ECE83C7DD834D1D6B32BD5",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucateci-mercadeo-estrategico.pdf",
+                          "sha256":  "3EB435439CFB839593DD21982618E1450DC3E85E47F24D132939C6BA36FF93B3",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucateci-planificacion-estrategica.pdf",
+                          "sha256":  "01A7B77018616431AD89E8C181B22CD255910687FACCD0200741B042F83D77D0",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucateci-recursos-humanos.pdf",
+                          "sha256":  "7EC821B36CEA40402F1900685465FF58D987F89A029A646FADA67754695B3F62",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/ucne-negociacion-conflictos.pdf",
+                          "sha256":  "2B0C99D4C174D9702FB8860D7C58D3C2E2343F643F9B3BD8E8D94052038C0EA4",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
                       }
                   ]
 }

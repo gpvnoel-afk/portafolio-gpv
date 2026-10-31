@@ -38,7 +38,9 @@ $fallback=$fallback.Trim().TrimEnd(';')|ConvertFrom-Json
 Assert (@($fallback.certificates|Where-Object{$_.verified -ne $true}).Count -eq 0) 'Sin pendientes en respaldo para archivo local'
 Assert ($fallback.certificates.Count -eq $visible.Count) 'Respaldo y JSON con el mismo catalogo visible'
 foreach($record in $visible){
- Assert ($record.trainingType -and $record.date -match '^\d{4}-\d{2}-\d{2}$') ('Ficha con tipo y fecha documental: '+$record.id)
+ $hasExactDate=$record.date -match '^\d{4}-\d{2}-\d{2}$'
+ $hasDocumentedYear=-not$record.date -and [int]$record.year -ge 1900 -and [int]$record.year -le [DateTime]::UtcNow.Year
+ Assert ($record.trainingType -and ($hasExactDate -or $hasDocumentedYear)) ('Ficha con tipo y fecha documental: '+$record.id)
 }
 Assert ([regex]::Matches($html,'<section id="').Count -eq 8) 'Siete secciones numeradas y presentacion inicial'
 Assert ($html -notmatch '(?i)Trabajo aplicado|id="proyectos"|href="#proyectos"') 'Sin secciones retiradas en la pagina'
