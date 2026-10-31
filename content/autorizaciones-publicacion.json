@@ -150,6 +150,12 @@
                           "sha256":  "2B0C99D4C174D9702FB8860D7C58D3C2E2343F643F9B3BD8E8D94052038C0EA4",
                           "authorizedBy":  "Germán Antonio Parra Villa",
                           "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/cs50-sql-preview.jpg",
+                          "sha256":  "1671843013629DD044D2F658EF7648A06B4451202634C0171FAF3C5F61D8C651",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-10-31T00:21:48.1920930-04:00"
                       }
                   ]
 }

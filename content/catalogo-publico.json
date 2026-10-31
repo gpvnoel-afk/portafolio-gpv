@@ -445,13 +445,14 @@
                              "institution":  "HarvardX · Harvard University / edX",
                              "category":  "Datos y tecnología",
                              "year":  2025,
-                             "description":  "Formación en línea completada en bases de datos y SQL.",
+                             "description":  "Vista previa del certificado. La imagen conserva la marca PREVIEW y no es una copia final.",
                              "verified":  true,
-                             "approved":  false,
-                             "file":  "",
+                             "approved":  true,
+                             "file":  "assets/documents/cs50-sql-preview.jpg",
+                             "format":  "image",
                              "summary":  "Bases de datos y SQL · formación en línea.",
                              "date":  "",
-                             "trainingType":  "Curso en línea"
+                             "trainingType":  "Vista previa del certificado"
                          }
                      ],
     "skills":  [
