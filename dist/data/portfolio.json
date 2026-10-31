@@ -438,6 +438,20 @@
                              "summary":  "Diplomado profesional · 300 horas.",
                              "date":  "2003-07-29",
                              "trainingType":  "Diplomado"
+                         },
+                         {
+                             "id":  "cs50-sql",
+                             "title":  "CS50 SQL: CS50\u0027s Introduction to Databases with SQL",
+                             "institution":  "HarvardX · Harvard University / edX",
+                             "category":  "Datos y tecnología",
+                             "year":  2025,
+                             "description":  "Formación en línea completada en bases de datos y SQL.",
+                             "verified":  true,
+                             "approved":  false,
+                             "file":  "",
+                             "summary":  "Bases de datos y SQL · formación en línea.",
+                             "date":  "",
+                             "trainingType":  "Curso en línea"
                          }
                      ],
     "skills":  [
