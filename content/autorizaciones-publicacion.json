@@ -92,10 +92,10 @@
                           "authorizedAt":  "2026-10-30T16:50:46.5136853-04:00"
                       },
                       {
-                          "file":  "assets/documents/icpard-finanzas.pdf",
-                          "sha256":  "30A3848AE5085A215AC5B7D05B8A7EFF7BAE4BDA9D3DA26E105403DC9F2ED526",
+                          "file":  "assets/documents/icpard-finanzas-nitido.pdf",
+                          "sha256":  "9B25D9075B9F25E8E8C9BD586EB4C222FD3B1BDA90C89214B0BC757424E7E4E1",
                           "authorizedBy":  "Germán Antonio Parra Villa",
-                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                          "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
                       },
                       {
                           "file":  "assets/documents/pucmm-persona-gerencia-organizacion.png",
@@ -104,10 +104,10 @@
                           "authorizedAt":  "2026-11-01T16:42:17.0750320-04:00"
                       },
                       {
-                          "file":  "assets/documents/tecnico-computadoras.pdf",
-                          "sha256":  "6B2AD5FDB698209657EDB353F06D5A7377EB052DAC428AF67F601A00A83E2605",
+                          "file":  "assets/documents/tecnico-computadoras.jpg",
+                          "sha256":  "2C92B833177B037197AEABC92C05076AE469A9ED9F5296C9CA4795AAA1F85127",
                           "authorizedBy":  "Germán Antonio Parra Villa",
-                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                          "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
                       },
                       {
                           "file":  "assets/documents/ucateci-alta-gerencia.pdf",
@@ -116,10 +116,10 @@
                           "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
                       },
                       {
-                          "file":  "assets/documents/ucateci-gerencia-cambio.pdf",
-                          "sha256":  "E02268E85D5956C54E4C6A93596998F0060D019B82460DC187C9E356FA037E3D",
+                          "file":  "assets/documents/ucateci-gerencia-cambio-nitido.pdf",
+                          "sha256":  "6FB0EB01152513DEBBBDD83E203612254A3B92D6B9CC02A8DBACD8810C6C5AFA",
                           "authorizedBy":  "Germán Antonio Parra Villa",
-                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                          "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
                       },
                       {
                           "file":  "assets/documents/ucateci-gerencia-financiera.pdf",
@@ -134,10 +134,10 @@
                           "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
                       },
                       {
-                          "file":  "assets/documents/ucateci-planificacion-estrategica.pdf",
-                          "sha256":  "01A7B77018616431AD89E8C181B22CD255910687FACCD0200741B042F83D77D0",
+                          "file":  "assets/documents/ucateci-planificacion-estrategica-nitido.pdf",
+                          "sha256":  "7758B8C6BDBABAF370F3C5A0035E473A053131DFCAD953239CCF3395DF92FE73",
                           "authorizedBy":  "Germán Antonio Parra Villa",
-                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                          "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
                       },
                       {
                           "file":  "assets/documents/ucateci-recursos-humanos.pdf",
@@ -146,16 +146,22 @@
                           "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
                       },
                       {
-                          "file":  "assets/documents/ucne-negociacion-conflictos.pdf",
-                          "sha256":  "2B0C99D4C174D9702FB8860D7C58D3C2E2343F643F9B3BD8E8D94052038C0EA4",
+                          "file":  "assets/documents/ucne-negociacion-conflictos-nitido.pdf",
+                          "sha256":  "E521DA2FFEFF48C9821437501E545F54FD15DD07EDA802433A940B58935A5EFE",
                           "authorizedBy":  "Germán Antonio Parra Villa",
-                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                          "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
                       },
                       {
                           "file":  "assets/documents/cs50-sql-preview.jpg",
                           "sha256":  "1671843013629DD044D2F658EF7648A06B4451202634C0171FAF3C5F61D8C651",
                           "authorizedBy":  "Germán Antonio Parra Villa",
                           "authorizedAt":  "2026-10-31T00:21:48.1920930-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/growup-inmersion-analisis-datos-2026.pdf",
+                          "sha256":  "C26518B911B34372CC5C886FCF668AB10439DF128C75B29343124BE44B0BF425",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
                       }
                   ]
 }
