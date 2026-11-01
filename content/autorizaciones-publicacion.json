@@ -1,4 +1,4 @@
-﻿{
+{
     "version":  1,
     "documents":  [
                       {
@@ -98,10 +98,10 @@
                           "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
                       },
                       {
-                          "file":  "assets/documents/pucmm-persona-gerencia-organizacion.pdf",
-                          "sha256":  "F3A0BE7165BCE293A0E549DC888A647F7CC8763B6C06420E44E4E3D16814820E",
+                          "file":  "assets/documents/pucmm-persona-gerencia-organizacion.png",
+                          "sha256":  "D08ADED31B31B59A02537662D531FAC9C1FD1A8B333D879D5D4387E92CD13A5B",
                           "authorizedBy":  "Germán Antonio Parra Villa",
-                          "authorizedAt":  "2026-10-30T23:40:06.5689350-04:00"
+                          "authorizedAt":  "2026-11-01T16:42:17.0750320-04:00"
                       },
                       {
                           "file":  "assets/documents/tecnico-computadoras.pdf",

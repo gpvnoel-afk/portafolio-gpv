@@ -318,18 +318,18 @@
                          },
                          {
                              "id":  "pucmm-persona-gerencia-organizacion",
-                             "title":  "Persona, Gerencia y Organización",
+                             "title":  "Persona, Gerencia \u0026 Organización: Retos en la Era del Conocimiento",
                              "institution":  "PUCMM",
                              "category":  "Gestión y liderazgo",
-                             "year":  2003,
-                             "description":  "Certificado de formación profesional. Año de emisión: 2003.",
+                             "year":  2006,
+                             "description":  "Ciclo formativo de Desarrollo Humano Profesional completado satisfactoriamente. Certificado expedido el 7 de octubre de 2006.",
                              "verified":  true,
                              "approved":  true,
-                             "file":  "assets/documents/pucmm-persona-gerencia-organizacion.pdf",
-                             "format":  "pdf",
-                             "summary":  "Formación profesional · 2003.",
-                             "date":  "",
-                             "trainingType":  "Certificado de participación"
+                             "file":  "assets/documents/pucmm-persona-gerencia-organizacion.png",
+                             "format":  "image",
+                             "summary":  "Ciclo formativo de Desarrollo Humano Profesional · 7 de octubre de 2006.",
+                             "date":  "2006-10-07",
+                             "trainingType":  "Certificado de finalización"
                          },
                          {
                              "id":  "icpard-finanzas",
