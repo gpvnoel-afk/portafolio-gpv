@@ -162,6 +162,12 @@
                           "sha256":  "C26518B911B34372CC5C886FCF668AB10439DF128C75B29343124BE44B0BF425",
                           "authorizedBy":  "Germán Antonio Parra Villa",
                           "authorizedAt":  "2026-11-01T17:15:32.657466-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/semblanza-german-parra.pdf",
+                          "sha256":  "285EC927FFDC576F7E43C951546D4CC7E6CDD344D33C3A20497C7050CAA3FA4A",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-11-01T19:26:08.657784-04:00"
                       }
                   ]
 }

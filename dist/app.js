@@ -163,6 +163,14 @@
   }
   function renderContent() {
     $('profile-description').textContent = data.profile.description;
+    const biographyAction = $('biography-action');
+    if (biographyAction && isApproved(data.biography)) {
+      const link = el('a', 'button secondary', 'Leer mi semblanza completa ↗');
+      link.href = safeDocument(data.biography.file);
+      link.target = '_blank'; link.rel = 'noopener';
+      biographyAction.replaceChildren(link);
+    }
+
     $('experience-list').replaceChildren();
     data.experience.forEach((record) => {
       const row = el('article', 'timeline-row');

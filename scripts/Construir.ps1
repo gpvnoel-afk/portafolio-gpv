@@ -10,7 +10,7 @@ if($ParaPublicar -and $data.publication.authorized -ne $true){throw 'Publicacion
 & (Join-Path $PSScriptRoot 'Verificar-produccion.ps1') -Datos $Datos -SoloOrigen
 $ids=@{}
 $approvedFiles=[Collections.Generic.List[string]]::new()
-foreach($item in @($data.certificates)+@($data.cv)){
+foreach($item in @($data.certificates)+@($data.cv)+@($data.biography)){
  if($item.id){if($item.id -notmatch '^[a-z0-9-]+$' -or $ids.ContainsKey($item.id)){throw 'ID invalido o repetido'};$ids[$item.id]=$true}
  if($item.year -and ([int]$item.year -lt 1900 -or [int]$item.year -gt [DateTime]::UtcNow.Year)){throw ('Ano no valido: '+$item.id)}
  if($item.approved -eq $true){

@@ -508,5 +508,10 @@ window.PORTFOLIO_DATA = {
                                      "SQL y SQLite · conocimientos declarados"
                                  ]
                    }
-               ]
+               ],
+    "biography":  {
+                      "approved":  true,
+                      "file":  "assets/documents/semblanza-german-parra.pdf",
+                      "format":  "pdf"
+                  }
 };

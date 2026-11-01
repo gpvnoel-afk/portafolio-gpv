@@ -1,4 +1,4 @@
-﻿param([string]$Datos='content\portfolio.json')
+param([string]$Datos='content\portfolio.json')
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
 $dist=Join-Path $root 'dist'
@@ -25,7 +25,7 @@ foreach($file in $public|Where-Object{$_.Extension -in '.html','.js','.json','.c
  Assert ($text -notmatch '(?i)<script[^>]+src="https?://|<link[^>]+href="https?://') ('Sin recursos externos de seguimiento: '+$file.Name)
 }
 $docFolder=Join-Path $dist 'assets\documents'
-$allowed=@(@($data.certificates)+@($data.cv)|Where-Object{$_.approved -eq $true}|ForEach-Object{[IO.Path]::GetFileName($_.file)})
+$allowed=@(@($data.certificates)+@($data.cv)+@($data.biography)|Where-Object{$_.approved -eq $true}|ForEach-Object{[IO.Path]::GetFileName($_.file)})
 foreach($file in Get-ChildItem -LiteralPath $docFolder -File -Force){Assert ($file.Name -in $allowed) ('Documento con aprobacion: '+$file.Name)}
 $deployed=Get-Content -LiteralPath (Join-Path $dist 'data\portfolio.json') -Raw -Encoding UTF8|ConvertFrom-Json
 $visible=@($data.certificates|Where-Object{$_.verified -eq $true})

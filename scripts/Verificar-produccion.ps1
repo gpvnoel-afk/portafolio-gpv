@@ -7,7 +7,7 @@ $registry=Get-Content -LiteralPath (Join-Path $r 'content\autorizaciones-publica
 if($registry.version -ne 1){throw 'Registro de autorizaciones no compatible'}
 $allowed=@('.nojekyll','index.html','styles.css','app.js','data.js','data/portfolio.json','assets/marca.svg')
 $names=@{}
-foreach($rec in @($data.certificates)+@($data.cv)){
+foreach($rec in @($data.certificates)+@($data.cv)+@($data.biography)){
  if($rec.approved -ne $true){continue}
  if($rec.localOnly -or ($rec.id -and $rec.verified -ne $true)){throw 'Documento privado o sin verificación'}
  if($rec.file -notmatch '^assets/documents/[a-z0-9][a-z0-9_.-]*\.(pdf|png|jpe?g)$' -or $rec.file.Contains('..')){throw 'Ruta de publicación inválida'}
