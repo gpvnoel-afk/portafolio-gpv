@@ -468,6 +468,21 @@
                              "summary":  "Curso en línea · 6 horas · febrero de 2026.",
                              "date":  "2026-02-27",
                              "trainingType":  "Certificado de participación"
+                         },
+                         {
+                             "id":  "usidhr-derechos-humanos",
+                             "title":  "Educación en Derechos Humanos — Human Rights Education Training",
+                             "institution":  "US Institute of Diplomacy and Human Rights (USIDHR)",
+                             "category":  "Derechos humanos",
+                             "year":  2026,
+                             "description":  "Formación completada en educación en derechos humanos y certificación como Human Rights Consultant por USIDHR, Washington, DC. Certificado emitido el 30 de julio de 2026.",
+                             "verified":  true,
+                             "approved":  true,
+                             "file":  "assets/documents/usidhr-derechos-humanos.pdf",
+                             "format":  "pdf",
+                             "summary":  "Formación en derechos humanos · Certified Human Rights Consultant.",
+                             "date":  "2026-07-30",
+                             "trainingType":  "Certificado de formación y certificación profesional"
                          }
                      ],
     "skills":  [
@@ -513,5 +528,16 @@
                       "approved":  true,
                       "file":  "assets/documents/semblanza-german-parra.pdf",
                       "format":  "pdf"
-                  }
+                  },
+    "badges":  [
+                   {
+                       "id":  "usidhr-consultor-insignia",
+                       "certificateId":  "usidhr-derechos-humanos",
+                       "title":  "Certified Human Rights Consultant — USIDHR",
+                       "verified":  true,
+                       "approved":  true,
+                       "file":  "assets/documents/usidhr-consultor-insignia.png",
+                       "format":  "image"
+                   }
+               ]
 }

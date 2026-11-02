@@ -168,6 +168,18 @@
                           "sha256":  "689B4F73E4F86142877BEB5965F42F5AD7231A15CE5E2ECEED53F76CEA455B97",
                           "authorizedBy":  "Germán Antonio Parra Villa",
                           "authorizedAt":  "2026-11-01T20:28:00.6858141-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/usidhr-derechos-humanos.pdf",
+                          "sha256":  "4D8A9FE2E3B6A31A6854665F7ECC5ECB8C5724CB9CF0D363E5D2E7A01882DBA9",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-11-01T20:46:12.114780-04:00"
+                      },
+                      {
+                          "file":  "assets/documents/usidhr-consultor-insignia.png",
+                          "sha256":  "71019A5176FE694008D83FE7EBEB59D600BD9E073B6A97527C6B30012A970F28",
+                          "authorizedBy":  "Germán Antonio Parra Villa",
+                          "authorizedAt":  "2026-11-01T20:46:12.121572-04:00"
                       }
                   ]
 }

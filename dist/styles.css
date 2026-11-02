@@ -10,3 +10,4 @@
 .certificate-field{display:grid;gap:3px;min-width:0}
 .certificate-details dt{margin:0;font-size:10px;font-weight:600;letter-spacing:.5px;color:var(--muted);line-height:1.5}
 .certificate-details dd{margin:0;font-size:12px;line-height:1.6;color:var(--muted);overflow-wrap:anywhere}
+.credential-insignia { display: block; width: auto; max-width: 90%; height: 155px; object-fit: contain; margin: 0 auto; }

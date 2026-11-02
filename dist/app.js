@@ -110,6 +110,14 @@
       const link = el('a', 'button secondary', 'Abrir documento en otra pestaña ↗');
       link.href = path; link.target = '_blank'; link.rel = 'noopener noreferrer';
       actions.append(link);
+      const badge = (data.badges || []).find((item) => item.certificateId === record.id && isApproved(item));
+      if (badge) {
+        const badgeLink = el('a', 'button secondary', 'Ver insignia profesional ↗');
+        badgeLink.href = safeDocument(badge.file);
+        badgeLink.target = '_blank'; badgeLink.rel = 'noopener noreferrer';
+        actions.append(badgeLink);
+      }
+
     } else {
       const message = record.verified === false ? 'Este registro no acredita una certificación obtenida. La evidencia requiere validación documental y no está disponible para publicación.' : 'La evidencia está identificada y se conserva en el archivo privado. Su publicación requiere revisar los datos personales y contar con autorización expresa.';
       viewer.append(el('p', '', message));
@@ -135,7 +143,14 @@
       const card = el('article', 'certificate-card');
       const cover = el('div', `certificate-cover color-${i % 4}`);
       cover.setAttribute('aria-hidden', 'true');
+      const badge = (data.badges || []).find((item) => item.certificateId === record.id && isApproved(item));
+      if (badge) {
+        const badgeImage = el('img', 'credential-insignia');
+        badgeImage.src = safeDocument(badge.file); badgeImage.alt = badge.title;
+        badgeImage.loading = 'lazy'; cover.append(badgeImage);
+      } else {
       cover.append(el('span', 'certificate-symbol', '✧'), el('span', 'certificate-cover-caption', 'FORMACIÓN PROFESIONAL'));
+      }
       const body = el('div', 'certificate-body');
       const details = el('dl', 'certificate-details');
       for (const [label, value, fieldName] of [
